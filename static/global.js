@@ -2,11 +2,13 @@
 const ARE_WE_HOME = document.documentElement.classList.contains("home");
 
 let pages = [
-	{url: "", title: "Home"},
-	{url: "projects/", title: "Projects"},
-	{url: "contact/", title: "Contact"},
-    {url: "resume/", title: "Resume"},
-    {url: "https://github.com/Mike-Kowalski", title:"Github"}
+    {url: "", title: "Home"},
+    {url: "projects/", title: "Projects"},
+    {url: "resume/", title: "Resume"},  
+    {url: "contact/", title: "Contact"},
+    {url: "https://github.com/Leandr0ER/PortaFolio02", title: "Github"}      
+    //{url: "https://github.com/Mike-Kowalsky", title: "Projects"}
+    // add the rest of your pages here
 ];
 
 let nav = document.createElement("nav");
